@@ -5,7 +5,7 @@
 // "URURD", return false
 // "RUULLDRD", return true
 
-const VacuumCleanerRoute = moves => {
+const vacuumCleanerRoute = moves => {
   let left = 0;
   let right = 0;
   let up = 0;
