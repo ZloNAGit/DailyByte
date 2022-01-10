@@ -11,3 +11,5 @@ const validPalindrome = string => {
   let reversed = trimmed.split('').reverse().join('');
   return reversed === trimmed;
 }
+
+module.exports.validPalindrome = validPalindrome;
